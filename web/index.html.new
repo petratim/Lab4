@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meidän Häät</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #f9c5d1;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 0;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .schedule ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .schedule li {
+      margin-bottom: 10px;
+    }
+
+    .rsvp-button {
+      display: inline-block;
+      padding: 15px 25px;
+      background-color: #ff6f91;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .rsvp-button:hover {
+      background-color: #e85a7d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f1f1f1;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Emma & Antti</h1>
+    <p>Sanomme "Tahdon" 14. kesäkuuta 2025</p>
+  </header>
+
+  <section class="about">
+    <h2>Tervetuloa juhlimaan kanssamme!</h2>
+    <p>Olemme iloisia saadessamme jakaa tämän erityisen päivän kanssanne. Luvassa on rakkautta, naurua ja tanssia myöhään yöhön!</p>
+  </section>
+
+  <section class="schedule">
+    <h2>Ohjelma</h2>
+    <ul>
+      <li><strong>14:00</strong> - Vihkiminen kirkossa</li>
+      <li><strong>15:30</strong> - Hääjuhla alkaa</li>
+      <li><strong>17:00</strong> - Illallinen ja puheet</li>
+      <li><strong>20:00</strong> - Tanssit ja juhla jatkuu</li>
+    </ul>
+  </section>
+
+  <section class="rsvp">
+    <h2>Ilmoittaudu mukaan</h2>
+    <p>Olethan ystävällinen ja ilmoittaudut viimeistään 15.5.2025 mennessä.</p>
+    <a href="https://esimerkki.fi/ilmoittautuminen" class="rsvp-button">Ilmoittaudu</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Emma & Antti. Nähdään juhlissa! | Sivun toteutti ❤️ ChatGPT</p>
+  </footer>
+
+</body>
+</html>
